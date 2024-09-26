@@ -1,5 +1,113 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -446,122 +554,6 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
-.relative {
-  position: relative;
-}
-
-.box-border {
-  box-sizing: border-box;
-}
-
 .flex {
   display: flex;
 }
@@ -574,12 +566,8 @@ video {
   width: 100%;
 }
 
-.max-w-xs {
-  max-width: 20rem;
-}
-
-.flex-row {
-  flex-direction: row;
+.max-w-450 {
+  max-width: 450px;
 }
 
 .flex-col {
@@ -598,47 +586,56 @@ video {
   justify-content: space-between;
 }
 
+.gap-32 {
+  gap: 32px;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-6 {
-  gap: 1.5rem;
+  gap: 6px;
 }
 
 .overflow-hidden {
   overflow: hidden;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
+.rounded-11 {
+  border-radius: 11px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-20 {
+  border-radius: 20px;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.bg-Brightblue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(245 75% 52% / var(--tw-bg-opacity));
-}
-
-.bg-Verypaleblue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
-}
-
-.bg-\[\#fff\] {
+.bg-White {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-mobile {
-  background-image: url(../img/pattern-background-mobile.svg);
+.bg-bggg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 232 255 / var(--tw-bg-opacity));
+}
+
+.bg-ch {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 42 225 / var(--tw-bg-opacity));
+}
+
+.bg-mbg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 249 255 / var(--tw-bg-opacity));
+}
+
+.bg-mobile-pattern {
+  background-image: url('/img/pattern-background-mobile.svg');
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-contain {
@@ -653,28 +650,33 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-15 {
+  padding: 15px;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.p-24 {
+  padding: 24px;
 }
 
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.pb-20 {
+  padding-bottom: 20px;
 }
 
-.py-\[55px\] {
-  padding-top: 55px;
-  padding-bottom: 55px;
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-17 {
+  padding-top: 17px;
+}
+
+.pt-45 {
+  padding-top: 45px;
 }
 
 .text-center {
@@ -682,89 +684,83 @@ video {
 }
 
 .font-redhat {
-  font-family: Red Hat Display, sans-serif;
+  font-family: Red Hat Display, sans;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.font-black {
+.text-preset-1 {
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0px;
   font-weight: 900;
 }
 
-.font-bold {
+.text-preset-2 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.text-preset-3 {
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  font-weight: 900;
+}
+
+.text-preset-4 {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0x;
   font-weight: 700;
+}
+
+.text-preset-5 {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0x;
+  font-weight: 900;
 }
 
 .font-medium {
   font-weight: 500;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-White {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-Brightblue {
+.text-cd {
   --tw-text-opacity: 1;
-  color: hsl(245 75% 52% / var(--tw-text-opacity));
+  color: rgb(31 46 85 / var(--tw-text-opacity));
 }
 
-.text-Darkblue {
+.text-ch {
   --tw-text-opacity: 1;
-  color: hsl(223 47% 23% / var(--tw-text-opacity));
+  color: rgb(56 42 225 / var(--tw-text-opacity));
 }
 
-.text-Desaturatedblue {
+.text-tp {
   --tw-text-opacity: 1;
-  color: hsl(224 23% 55% / var(--tw-text-opacity));
-}
-
-.text-Paleblue {
-  --tw-text-opacity: 1;
-  color: hsl(225 100% 94% / var(--tw-text-opacity));
+  color: rgb(113 127 166 / var(--tw-text-opacity));
 }
 
 .underline {
   text-decoration-line: underline;
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.hover\:text-cd:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 46 85 / var(--tw-text-opacity));
 }
 
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
 
-@media (min-width: 375px) {
-  .sm\:max-w-sm {
-    max-width: 24rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .lg\:max-h-\[700px\] {
-    max-height: 700px;
-  }
-
-  .lg\:max-w-\[450px\] {
-    max-width: 450px;
-  }
-
-  .lg\:bg-desktop {
-    background-image: url(../img/pattern-background-desktop.svg);
-  }
-
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+@media (min-width: 1024px) {
+  .lg\:bg-desktop-pattern {
+    background-image: url('/img/pattern-background-desktop.svg');
   }
 }

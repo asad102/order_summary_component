@@ -19,8 +19,8 @@ module.exports = {
     
     extend: {
       backgroundImage: {
-        'mobile-pattern': "url('/img/pattern-background-mobile.svg')",
-        'desktop-pattern': "url('/img/pattern-background-desktop.svg')",
+        'mobile-pattern': "url('./../img/pattern-background-mobile.svg')",
+        'desktop-pattern': "url('./../img/pattern-background-desktop.svg')",
       },
       spacing : {
         6 : '6px',
